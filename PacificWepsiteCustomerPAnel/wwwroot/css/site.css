@@ -1,0 +1,219 @@
+﻿/*Navigation bar start*/
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box; 
+}
+.row{
+    max-width:1140px;
+    margin:0 auto;
+}
+nav {
+    background: #808080 !important;
+    
+}
+nav ul li .nav-link {
+    text-transform: uppercase;
+}
+
+
+/*header section start*/
+.header {
+    
+    background-image: url('/css/image/Pacific Website- HOME PAGEhaddercar.png');
+    height: 85vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.hero-text-box {
+    position: relative;
+    width: 650px;
+    margin-top:70px;
+    text-align: left;
+}
+    .hero-text-box h1 {
+        font-weight: 600;
+        color: #1f2150;
+        font-size:50px;
+    }
+    .hero-text-box p {
+        font-weight: 400;
+        font-size: 30px;
+        
+        color: #000000;
+    }
+    .hero-text-box a {
+        padding: 10px 20px;
+        height: 60px;
+        width: 244px;
+        border-radius: 10px;
+        font-weight: 200;
+        font-size: 15px;
+        color: #000;
+        border: 0.5px solid #1e2150;
+        box-shadow: 0 0 5px #1e2150;
+    }
+/*header section end*/
+/*filter section start*/
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+    height: 0;
+    visibility: hidden
+}
+
+.filter-section {
+    height: 60vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    background-image: url('/css/image/Pacific Website- HOME PAGE.png')
+}
+#filter-box {
+
+    margin: -50px;
+    width: 700px;
+    height: auto;
+    background: #fff;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+.filter-header{
+    padding-top:30px;
+    padding-bottom:4px;
+}
+.filter-section #filter-box .filter-header h2 {
+    text-transform: uppercase;
+    color: #1f2150;
+    font-weight: 800;
+    font-size: 20px;
+}
+.filter-section #filter-box .src1 {
+    background: #eaf1fb !important;
+    border: 0;
+    border-radius:10px;
+    outline: 0;
+    height: 50px;
+}
+.filter-section #filter-box .src2 {
+    background: #eaf1fb !important;
+    border: 0;
+    outline: 0;
+    border-radius:10px;
+    height: 35px;
+}
+.filter-section #filter-box .filter-btn {
+    background-image: linear-gradient(to right, #000d34, #00356f);
+    padding: 10px 20px;
+    height: 60px;
+    width: 244px;
+    font-weight:200;
+    border:0;
+    border-radius: 10px;
+    font-weight: 200;
+    font-size: 15px;
+    color: #eaf1fb;
+    margin-bottom:30px;
+    margin-top:30px;
+}
+
+/*filter section ender*/
+
+
+/*service setion start*/
+.service-setion {
+    height: 95vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    background-color: #f3f8ff;
+}
+.service-car-image{
+    width:400px;
+   margin-top:150px;
+}
+/*service section ender*/
+
+
+
+
+
+
+
+
+/*.header {
+    left: 0;
+    height: 550px;
+    width: 100%;
+    background-image: url('/css/image/Pacific Website- HOME PAGEhaddercar.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.header-text-h  h1{
+    font-weight: 700;
+    margin-top: 60px;
+    margin-left: 40px;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.header-text-p{
+    width:720px;
+}
+.header-text-p p {
+    margin: 0;
+    font-weight: 400;
+    margin-left: 40px;
+    font-size: 35px;
+}*/
+/*.row{
+    top:0;
+}*/
+/*.header-btn {
+    margin-top: 30px;
+}
+    .header-btn a {
+        margin-left: 40px;
+        padding: 10px 20px;
+        height: 60px;
+        width: 244px;
+        border-radius: 10px;
+        font-weight: 300;
+        font-size: 15px;
+        color: #000;
+        border: 0.5px solid #000;
+        box-shadow: 0 0 5px #333;
+    }*/
+/*header section end*/
+/*filter section start*/
+/*.filter {
+    flex-direction: row;
+    float: right;
+    top: 610px;
+    left: 0;
+    right: 0;
+    height: 350px;
+    width: 100%;
+    background-image: url('/css/image/Pacific Website- HOME PAGEfooterlow.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+}*/
+/*filter section end*/
