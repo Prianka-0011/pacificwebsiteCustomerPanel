@@ -47,9 +47,9 @@ nav ul li .nav-link {
         font-size:50px;
     }
     .hero-text-box p {
+        text-align: justify;
         font-weight: 400;
         font-size: 30px;
-        
         color: #000000;
     }
     .hero-text-box a {
@@ -118,17 +118,15 @@ nav ul li .nav-link {
 }
 .filter-section #filter-box .filter-btn {
     background-image: linear-gradient(to right, #000d34, #00356f);
-    padding: 10px 20px;
-    height: 60px;
-    width: 244px;
-    font-weight:200;
-    border:0;
+    padding: 8px 50px;
+    font-weight: 200;
+    border: 0;
     border-radius: 10px;
     font-weight: 200;
-    font-size: 15px;
+    font-size: 12px;
     color: #eaf1fb;
-    margin-bottom:30px;
-    margin-top:30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 /*filter section ender*/
@@ -233,80 +231,157 @@ nav ul li .nav-link {
 }
 .feature-text-box h2 {
     padding-top: 100px;
-  
     font-size: 20px;
     font-weight: 800;
     text-transform: uppercase;
     color: #ffffff;
     
 }
-.feature-text-box p {
-    padding:0;
+.feature-text-box .little-description {
+    padding: 0;
+    
     font-size: 15px;
     font-weight: 200;
     color: #ffffff;
 }
+.feature-text-box p {
+    padding: 0;
+   
+    font-size: 10px;
+    font-weight: 200;
+    color: #e9eaed;
+}
+.feature-text-box h3 {
+    padding-top: 100px;
+    font-size: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #e9eaed;
+}
 /*feature section ender*/
-
-
-/*.header {
-    left: 0;
-    height: 550px;
-    width: 100%;
-    background-image: url('/css/image/Pacific Website- HOME PAGEhaddercar.png');
-    background-position: center;
+/*about section ender*/
+.about-section {
+    height: auto;
+    background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    position: absolute;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #f3f8ff;
 }
-.header-text-h  h1{
-    font-weight: 700;
-    margin-top: 60px;
-    margin-left: 40px;
-    font-size: 50px;
-    margin-bottom: 0;
+
+.about-section h2 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #1f2150;
+    margin-top:60px;
+    text-transform:uppercase;
+    
 }
-.header-text-p{
-    width:720px;
-}
-.header-text-p p {
-    margin: 0;
-    font-weight: 400;
-    margin-left: 40px;
-    font-size: 35px;
-}*/
-/*.row{
-    top:0;
-}*/
-/*.header-btn {
-    margin-top: 30px;
-}
-    .header-btn a {
-        margin-left: 40px;
-        padding: 10px 20px;
-        height: 60px;
-        width: 244px;
+    .about-section .about-btn {
+        background-image: linear-gradient(to right, #000d34, #00356f);
+        padding: 8px 50px;
+        font-weight: 200;
+        border: 0;
         border-radius: 10px;
-        font-weight: 300;
+        font-weight: 200;
+        font-size: 12px;
+        color: #eaf1fb;
+        margin-bottom:80px;
+       
+    }
+
+    .about-section p {
+        text-align: justify;
+        font-weight: 200;
         font-size: 15px;
-        color: #000;
-        border: 0.5px solid #000;
-        box-shadow: 0 0 5px #333;
-    }*/
-/*header section end*/
-/*filter section start*/
-/*.filter {
-    flex-direction: row;
-    float: right;
-    top: 610px;
-    left: 0;
-    right: 0;
-    height: 350px;
-    width: 100%;
-    background-image: url('/css/image/Pacific Website- HOME PAGEfooterlow.png');
-    background-position: center;
+        color:#000000
+    }
+
+    .img-box img {
+        box-sizing: border-box;
+        height: 280px;
+        width: 430px;
+        margin-top: 50px;
+        margin-left: 80px;
+    }
+.about-side-text-box {
+    position: relative;
+    width: 350px;
+    margin-top: 70px;
+    text-align: left;
+}
+
+/*about section ender*/
+/*action section ender*/
+.action-section {
+    height: auto;
+    background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    position: absolute;
-}*/
-/*filter section end*/
+    position: relative;
+    text-align: center;
+    background-image: url('/css/image/Pacific Website- HOME PAGEFOOTER1.png')
+}
+.action-text-box h3 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.action-section img {
+    height: 40px;
+    width: 80px;
+    margin-bottom:50px;
+}
+/*action section ender*/
+/*partner section start*/
+.partner-section {
+    height: auto;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    background-color: #f3f8ff;
+}
+    .partner-section h3 {
+        font-weight: 800;
+        font-size: 20px;
+        color: #000000;
+        margin-top: 60px;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+    }
+    .partner-section img {    
+        margin-bottom:60px; 
+
+    }
+/*partner section ender*/
+/*member section start*/
+.member-section {
+    height: auto;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    background-image: url('/css/image/Pacific Website- HOME PAGEfooterlow.png')
+}
+    .member-section h3 {
+        font-weight: 600;
+        font-size: 20px;
+        color: #fff;
+        margin-top: 60px;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+    }
+    .member-section img {
+        height: 70px;
+        width: 100px;
+        margin-bottom: 50px;
+    }
+/*member section ender*/
