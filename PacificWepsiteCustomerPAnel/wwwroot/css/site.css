@@ -74,7 +74,7 @@ nav ul li .nav-link {
 }
 
 .filter-section {
-    height: 60vh;
+    height: auto;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -90,6 +90,7 @@ nav ul li .nav-link {
     background: #fff;
     border-radius: 30px;
     box-sizing: border-box;
+    margin-bottom:100px;
 }
 .filter-header{
     padding-top:30px;
@@ -135,25 +136,117 @@ nav ul li .nav-link {
 
 /*service setion start*/
 .service-setion {
-    height: 95vh;
+    height: auto;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     text-align: center;
+    margin:0 auto;
     background-color: #f3f8ff;
 }
-.service-car-image{
+.service-text-box h2 {
+    text-transform: uppercase;
+    color: #1f2150;
+    font-weight: 800;
+    font-size: 20px;
+    padding-top:100px;
+    padding-bottom:10px;
+}
+.service-text-box img {
+   padding-bottom:5px;
+}
+.p-box {
+    height: 100px;
+    width: 700px;
+    box-sizing: border-box;
+    /*left: -30%;
+    top: -30%;
+    transform: translate(30%,30%);*/
+    margin-bottom: 50px;
+    margin-top:35px;
+}
+.service-text-box .little-description {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 500;
+    font-size: 10px;
+    
+}
+.service-row{
+    box-sizing:border-box;
+}
+.box h3 {
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.box p {
+    font-size: 15px;
+    font-weight: 200;
+}
+.box img {
+   width:60px;
+   height:60px;
+   
+}
+.service-ask-image{
+    margin-top:60px;
+}
+.service-ask-image img {
+    
+    width: 70px;
+    height: 70px;
+}
+ .service-ask-image h3 {
+        font-size: 20px;
+        font-weight: 800;
+        text-transform: uppercase;
+        color: #1f2150;
+        padding:0;
+    }
+    .service-ask-image p {
+        font-size: 15px;
+        font-weight: 200;
+        color: #000000;
+    }
+.service-car-image {
+    left: 0;
+   
+}
+.service-car-image img{
     width:400px;
-   margin-top:150px;
+    
 }
 /*service section ender*/
 
-
-
-
-
-
+/*feature section ender*/
+.feature-section {
+    height: auto;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    background-image: url('/css/image/Pacific Website- HOME PAGEFOOTER.png')
+}
+.feature-text-box h2 {
+    padding-top: 100px;
+  
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ffffff;
+    
+}
+.feature-text-box p {
+    padding:0;
+    font-size: 15px;
+    font-weight: 200;
+    color: #ffffff;
+}
+/*feature section ender*/
 
 
 /*.header {
