@@ -499,26 +499,33 @@ nav ul li .nav-link {
 .footer2 .pre1 pre{
     color:#fff;
     text-align:justify;
-    margin-left:70px;
+  
+    margin:0;
 }
 .prebox
 {
-    margin-top:100px;
+    margin-top:110px;
 }
 .footer2 .prebox pre {
     color: #fff;
     text-align: justify;
-    margin-left:40px;
+    margin: 0;
 }
- .footer2 img {
-        width: 400px;
-        margin-top:80px;
-    }
+.pre-majn{
+    margin-left:50px;
+    margin-top:10px;
+}
+.footer2 img {
+    width: 400px;
+    margin-top: 80px;
+}
 /*footer2 section ender*/
 /*home  Page end*/
 
 
 /*about  Page start*/
+
+/*about  section start*/
 .about-hader {
     background-image: url('/css/image/Pacific Website- ABOUT US1.png');
     height: 85vh;
@@ -527,6 +534,7 @@ nav ul li .nav-link {
     background-repeat: no-repeat;
     position: relative;
 }
+/*comprensive section   start*/
 .comprensive-section {
     height: auto;
     background: #f3f8ff;
@@ -551,4 +559,107 @@ nav ul li .nav-link {
     margin-top:200px;
     margin-bottom:200px;
 }
+/*comprensive section   start*/
+
+/*forest section   start*/
+
+/*forest section   start*/
+.forest-section {
+    background-image: url('/css/image/Pacific Website- ABOUT US.png');
+    height: 55vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+/*forest section   end*/
+/*stock section   start*/
+.stock {
+    background-image: url('/css/image/Pacific Website- ABOUT US2.png');
+    height: 55vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+    .stock h3{
+        color: #fff;
+        font-size: 15px;
+        font-weight: 800;
+        text-transform:uppercase;
+    }
+    /*.stock img {
+        color: #fff;
+        height:45px;
+        width:50px;
+    }*/
+.stock-margin{
+   
+    margin-top:150px;
+    margin-left:25px;
+    margin-right:25px;
+}
+.stock h3 {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.about1-side-text-box{
+
+    position: relative;
+    width: 350px;
+    margin-top: 70px;
+    text-align: left;
+}
+    .about1-side-text-box h3 {
+        color: red;
+        font-size: 15px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    .about1-side-text-box h3 span {
+        color: #000000;
+        font-size: 15px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    .about1-side-text-box pre{
+        margin:0;
+    }
+/*stock section   end*/
+
+/*about  Page end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*forest section  Page end*/
 /*about  Page end*/
