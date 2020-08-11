@@ -33,3 +33,4 @@ C:\Users\niku\source\repos\PacificWepsiteCustomerPAnel\PacificWepsiteCustomerPAn
 C:\Users\niku\source\repos\PacificWepsiteCustomerPAnel\PacificWepsiteCustomerPAnel\obj\Debug\netcoreapp2.2\Razor\Areas\Customer\_ViewImports.g.cshtml.cs
 C:\Users\niku\source\repos\PacificWepsiteCustomerPAnel\PacificWepsiteCustomerPAnel\obj\Debug\netcoreapp2.2\Razor\Areas\Customer\_ViewStart.g.cshtml.cs
 C:\Users\niku\source\repos\PacificWepsiteCustomerPAnel\PacificWepsiteCustomerPAnel\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CustomerLayout.g.cshtml.cs
+C:\Users\niku\source\repos\PacificWepsiteCustomerPAnel\PacificWepsiteCustomerPAnel\obj\Debug\netcoreapp2.2\Razor\Areas\Customer\Views\Home\About.g.cshtml.cs

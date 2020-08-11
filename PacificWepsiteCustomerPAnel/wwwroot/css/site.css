@@ -17,8 +17,7 @@ html {
     margin:0 auto;
 }
 nav {
-    background: #808080 !important;
-    
+    background: #ffffff !important;
 }
 nav ul li .nav-link {
     text-transform: uppercase;
@@ -49,7 +48,8 @@ nav ul li .nav-link {
     .hero-text-box p {
         text-align: justify;
         font-weight: 400;
-        font-size: 30px;
+        font-size: 25px;
+        text-align:justify;
         color: #000000;
     }
     .hero-text-box a {
@@ -78,14 +78,14 @@ nav ul li .nav-link {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    position: relative;
+    position:relative;
     text-align: center;
     background-image: url('/css/image/Pacific Website- HOME PAGE.png')
 }
 #filter-box {
 
     margin: -50px;
-    width: 700px;
+    width: auto;
     height: auto;
     background: #fff;
     border-radius: 30px;
@@ -158,9 +158,6 @@ nav ul li .nav-link {
     height: 100px;
     width: 700px;
     box-sizing: border-box;
-    /*left: -30%;
-    top: -30%;
-    transform: translate(30%,30%);*/
     margin-bottom: 50px;
     margin-top:35px;
 }
@@ -204,7 +201,7 @@ nav ul li .nav-link {
         color: #1f2150;
         padding:0;
     }
-    .service-ask-image p {
+ .service-ask-image p {
         font-size: 15px;
         font-weight: 200;
         color: #000000;
@@ -298,14 +295,18 @@ nav ul li .nav-link {
         font-size: 15px;
         color:#000000
     }
-
-    .img-box img {
-        box-sizing: border-box;
-        height: 280px;
-        width: 430px;
-        margin-top: 50px;
-        margin-left: 80px;
-    }
+.about-margin{
+    margin-bottom:50px;
+    margin-top:50px;
+}
+.img-box img {
+    box-sizing: border-box;
+    height: 280px;
+    width: 430px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    /*margin-left: 80px;*/
+}
 .about-side-text-box {
     position: relative;
     width: 350px;
@@ -347,8 +348,9 @@ nav ul li .nav-link {
     position: relative;
     text-align: center;
     background-color: #f3f8ff;
+    background-image: linear-gradient(to right, #f3f8ff, #f3f8ff);
 }
-    .partner-section h3 {
+.partner-section h3 {
         font-weight: 800;
         font-size: 20px;
         color: #000000;
@@ -356,9 +358,10 @@ nav ul li .nav-link {
         margin-bottom: 30px;
         text-transform: uppercase;
     }
-    .partner-section img {    
-        margin-bottom:60px; 
-
+    .partner-section img {
+        margin-bottom: 60px;
+        height: 60px;
+        width: 140px;
     }
 /*partner section ender*/
 /*member section start*/
@@ -371,6 +374,11 @@ nav ul li .nav-link {
     text-align: center;
     background-image: url('/css/image/Pacific Website- HOME PAGEfooterlow.png')
 }
+    .member-section img {
+        margin-bottom: 50px;
+        height:60px;
+        width:140px;
+    }
     .member-section h3 {
         font-weight: 600;
         font-size: 20px;
@@ -379,9 +387,168 @@ nav ul li .nav-link {
         margin-bottom: 30px;
         text-transform: uppercase;
     }
-    .member-section img {
-        height: 70px;
-        width: 100px;
+    .member-section .larg1 {
+        height: 60px;
+        width: 80px;
+        margin-bottom: 50px;
+    }
+  
+    .member-section .larg2 {
+         height: 60px;
+        width: 80px;
+        margin-bottom: 50px;
+    }
+    
+    .member-section .larg3 {
+        height: 60px;
+        width: 130px;
+        margin-bottom: 50px;
+    }
+
+    .member-section .larg4 {
+        height: 60px;
+        width: 140px;
+        margin-bottom: 50px;
+    }
+    .member-section .larg5 {
+        height: 60px;
+        width: 150px;
+        margin-bottom: 50px;
+    }
+    .member-section .larg6 {
+      
+        width: 250px;
+        height: 60px; 
         margin-bottom: 50px;
     }
 /*member section ender*/
+/*footer1 section start*/
+.footer1 {
+    height:auto;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    background-image: url('/css/image/Pacific Website- bluefooterup.png')
+}
+.footer1 label{
+        font-weight: 600;
+        font-size: 20px;
+        color: #fff;
+        margin-top: 60px;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+ }
+.footer1 button {
+        background-image: linear-gradient(to right, #b30c83, #691180);
+        padding: 8px 20px;
+        font-weight: 200;
+        border: 0;
+        border-radius: 10px;
+        font-weight: 200;
+        font-size: 12px;
+        color: #eaf1fb;
+        margin-bottom: 30px;
+       
+ }
+    .footer1 .form-control1 {
+        background: #ffffff !important;
+        border: 0;
+        outline: 0;
+        border-radius: 10px;
+        padding: 4px 50px;
+        text-align: left;
+        margin-bottom: 30px;
+       
+    }
+.footer1 nav {
+    background: #000000 !important;
+    
+}
+    .footer1 a span {
+        color: #f3f8ff !important;
+        margin-left: 5px;
+        margin-right: 10px;
+        font-weight: 600;
+    }
+    .footer1 ul{
+        margin-left:auto;
+        margin-right:auto;
+            
+    }
+    .footer1 a i {
+        color: #f3f8ff !important;
+        margin-left: 5px;
+        
+        font-weight: 800;
+        font-size: 25px;
+        margin-top: 2px;
+    }
+/*footer1 section ender*/
+/*footer2 section ender*/
+.footer2 {
+    height: auto;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    background-image: url('/css/image/Pacific Website- HOME PAGEfootertop.png')
+}
+.footer2 .pre1 pre{
+    color:#fff;
+    text-align:justify;
+    margin-left:70px;
+}
+.prebox
+{
+    margin-top:100px;
+}
+.footer2 .prebox pre {
+    color: #fff;
+    text-align: justify;
+    margin-left:40px;
+}
+ .footer2 img {
+        width: 400px;
+        margin-top:80px;
+    }
+/*footer2 section ender*/
+/*home  Page end*/
+
+
+/*about  Page start*/
+.about-hader {
+    background-image: url('/css/image/Pacific Website- ABOUT US1.png');
+    height: 85vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.comprensive-section {
+    height: auto;
+    background: #f3f8ff;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.comprensive-section p{
+    text-align:center;
+    color:#000000;
+    font-size:15px;
+    font-weight:200;
+}
+    .comprensive-section h2 {
+        color: #1f2150;
+        text-align:center;
+        font-size:30px;
+        font-weight:800;
+    }
+.com-box{
+    margin-top:200px;
+    margin-bottom:200px;
+}
+/*about  Page end*/

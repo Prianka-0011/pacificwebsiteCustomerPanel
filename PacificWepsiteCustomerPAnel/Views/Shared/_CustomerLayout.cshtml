@@ -45,13 +45,10 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#">About Us</a>
+                        <a class="nav-link " asp-action="About" asp-controller="Home" >About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Stock</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Contact</a>
+                        <a class="nav-link " asp-action="About" asp-controller="Home">Contact</a>
                     </li>
                 </ul>
 
@@ -62,7 +59,55 @@
         @RenderBody()
     </div>
 
+    <section class="footer1">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <div class="form-group mt-5">
+                    <label>Subscribe to our newsleter feed</label>
+                    <input class="form-control1" placeholder="Enter your Email" />
+                    <button class="sub-btn">Subcribe</button>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg " >
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item active"><a href="#" class="nav-link"><span>Facebook</span><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="nav-item active"><a href="#" class="nav-link"><span>Twitter</span><i class="fab fa-twitter"></i></a></li>
+                        <li class="nav-item active"><a href="#" class="nav-link"><span>Dribbble</span><i class="fab fa-dribbble"></i></a></li>
+                        <li class="nav-item active"><a href="#" class="nav-link"><span>Google pluse</span><i class="fab fa-google-plus-g"></i></a></li>
+                        <li class="nav-item active"><a href="#" class="nav-link"><span>Vimeo</span><i class="fab fa-vimeo-v"></i></a></li>
+                        <li class="nav-item active"><a href="#" class="nav-link"><span>Pinterest</span><i class="fab fa-pinterest"></i></a></li>
+                        <li class="nav-item active"><a href="#" class="nav-link"><span>Behance</span><i class="fab fa-behance"></i></a></li>
+                        <li class="nav-item active"><a href="#" class="nav-link"><span>Linkedin</span><i class="fab fa-behance"></i></a></li>
+                    </ul>
+                </div>
+          
+        </nav>
+    </section>
+    <section class="footer2">
+        <div class="row">
 
+            <div class="col-md-4 pre1">
+                <img src="~/images/Pacific Website- HOME PAGElogowhite.png" alt="Alternate Text" class="mt-5" />
+                <pre>Minoh Freres bldg (4th Floor)</pre>
+                <pre>412 Senba Higashi 1-10-9</pre>
+                <pre>Minoh Shi Osaka</pre>
+                <pre>562-0035 Japan</pre>
+            </div>
+            <div class="col-md-4 pre2">
+                <div class="prebox">
+                    <pre>Call Us: +81 727 49 6266)</pre>
+                    <pre>Fax: +81 727 49 6277</pre>
+                    <pre>Email: pacificexp2015@gmail.com</pre>
+                </div>
+                
+            </div>
+            <div class="col-md-4">
+                <img src="~/images/Pacific Website- silvercar2.png" alt="Alternate Text" />
+            </div>
+        </div>
+    </section>
 
     <environment include="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>
